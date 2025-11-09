@@ -11,3 +11,4 @@ for i in range(1, len(user_string) + 1): #RANGE FUNCTION: range(len(user_string)
 # count (1, 2, 3, etc.)
     print(user_string[:i]) #STRING SLICING: user_string[:i] --> user_string[start : end]; since 0 is not mandatory, i only
 # indicates the end position
+#miao

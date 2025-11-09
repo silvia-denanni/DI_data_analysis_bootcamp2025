@@ -187,7 +187,7 @@
 # # >>> print(f"You will be 100 in {when_100} years.")
 # # You will be 100 in 77 years.
 
-# #CONDITIONALS, you use BOOLEANS and LOGIC OPERATORS (==, !=, <, >, <=, >=)
+# #CONDITIONALS, you use BOOLEANS and LOGICAL OPERATORS (==, !=, <, >, <=, >=) and, or, not-->
 # #SYNTAX OF CONDITIONALS: 
 # # if <condition>
 # #    indented block 
@@ -214,4 +214,6 @@ birth_year =int(input("When were you born? "))
 current_year =date.today().year
 your_age =current_year - birth_year
 print(f"Your age is {your_age}")
-#miao
+
+#not, or, and
+print(not(True)) # --> False
