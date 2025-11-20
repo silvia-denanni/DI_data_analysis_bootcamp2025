@@ -45,7 +45,7 @@ class Pagination():
             self.current_index -= 1                  # minus 1 because of zero-based indexing
             return self
 
-# All navigation methods (except go_to_page) should return self to allow method chaining.
+# All navigation methods (except go_to_page) should return self to allow method chaining
 
 alphabetList = list("abcdefghijklmnopqrstuvwxyz")
 p = Pagination(alphabetList, 4)
