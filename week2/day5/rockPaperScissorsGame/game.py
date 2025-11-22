@@ -46,7 +46,7 @@ class Game:
 
 
 game1 = Game()
-result = game1.play()        # play() is a method, so you need to CALL IT WITH PARENTHESES to execute it 
+result = game1.play()        # play() is a method, so you need to CALL IT WITH PARENTHESES to execute it!!! 
 
 
 
